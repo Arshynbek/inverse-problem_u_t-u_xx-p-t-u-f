@@ -1,0 +1,18 @@
+inverse-problem-pt-ut/
+│
+├── method1_integration.py
+├── method2_newton.py
+├── method3_pinn.py
+│
+├── common/
+│   └── problem_setup.py      # exact solutions, omega, f(x,t), etc.
+│
+├── results/
+│   ├── p_method=1.npy
+│   ├── p_method=2.npy
+│   ├── p_method=3.npy
+│   └── p_exact.npy
+│
+├── README.md
+├── .gitignore
+└── requirements.txt
